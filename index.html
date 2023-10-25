@@ -23,14 +23,74 @@
       }
     }
   </script>
+  
 <style>
     .font-poppins{
         font-family: 'Poppins', sans-serif;
     }
+   .myAni {
+    animation-name: left;
+    animation-duration: 7s;
+   }
+   .myAni2 {
+    animation-name: right;
+    animation-duration: 5s;
+   }
+    @keyframes left {
+      from {
+        position: relative;
+        left: -1200px;
+      }
+     
+     
+      to{
+        position: relative;
+        left: 330px;
+      }
+      
+    }
+    @keyframes right {
+      from {
+        position: relative;
+        right: -1200px;
+      }
+     
+     
+      to{
+        position: relative;
+        right: 0px;
+      }
+      
+    }
+
 </style>
 </head>
 <body class="font-poppins">
-    <header class="md:container md:mx-auto">
+    <header class="">
+      <div class="opacity-80 bg-[#0B0B0B80] absolute top-0  h-[100vh]">
+
+      </div>
+    <div class="w-[100%] ">
+      <div class="grid grid-cols-2  ">
+        <div>
+t
+        </div>
+        <div>
+t
+        </div>
+        <!-- <a class="" href="https://ibb.co/8NP7tZt"><img class="h-[100vh] w-[70%] " src="https://i.ibb.co/gmtRhKh/m44.jpg" alt="m44" ></a> ---->
+        <!-- <a class="myAni" href="https://ibb.co/8NP7tZt"><img class="w-[30vw]   h-[100vh] border border-white  absolute right-[50%] " src="https://i.ibb.co/gmtRhKh/m44.jpg" alt="m44" ></a>  -->
+        <a class="myAni" href="https://ibb.co/jyBYX7s"><img class="w-[23vw]    h-[100vh]  absolute right-[50%]" src="https://i.ibb.co/BydJM8F/m44-removebg-preview.png" alt="m44-remove bg-preview" ></a>
+        <!-- <a href="https://ibb.co/q7Nygm9"><img  class="h-[100vh] " src="https://i.ibb.co/Cmb19Vv/18b303da-ba12-4bd8-8bab-792122bb1dad-removebg.jpg" alt="18b303da-ba12-4bd8-8bab-792122bb1dad-removebg" ></a> -->
+        <a class="myAni2" href="https://ibb.co/wCvCX28"><img class=" w-[30vw]  h-[100vh] border border-white " src="https://i.ibb.co/XpwpgG6/18b303da-ba12-4bd8-8bab-792122bb1dad-removebg-removebg-preview.png" alt="18b303da-ba12-4bd8-8bab-792122bb1dad-removebg-removebg-preview" ></a>
+      <!-- <img class="h-[95vh] " src="https://i.postimg.cc/8CY0RVY4/futuristic-robot-face-closeup-view-isolated-on-black-background-3d-render-PWD4-XX.jpg" alt=""> -->
+      </div>
+    </div>
+      <div class="">
+        Front-end-developer
+      </div>
+     
+   
 <nav class=" ">
     <div class="navbar bg-base-100 justify-between flex-col md:flex-row space-y-6 md:space-y-0
     text-center ">
@@ -180,7 +240,7 @@
   </h1>
   <p class="text-[#E76F51] text-base text-center mt-6">Best bike collection</p>
   <!-- featured-picture -->
-  <div class="flex flex-col p-10 md:flex-col lg:flex-row justify-around mt-10 space-y-24 px-10 md:space-y-0  text-center md:pe-52 md:text-center ">
+  <div class="flex flex-col p-10 md:flex-col lg:flex-row justify-center  space-y-24 px-10 md:space-y-0  text-center md: gap-24 md:text-center ">
     <img src="./biker-zone-resources/images/others/feature-bike.png" alt="">
     <img src="./biker-zone-resources/images/others/feature-bike.png" alt="">
     <img src="./biker-zone-resources/images/others/feature-bike.png" alt="">
@@ -223,7 +283,7 @@
 <!-- happy client -->
 <section class="mt-44">
   <h1 class="text-center text-4xl font-semibold px-10 md:px-0  ">Happy<span class="text-[#E76F]">Client Says</span> </h1>
- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 p-20 gap-x-8 space-y-12">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 lg:mt-0 p-20 gap-x-8 space-y-12">
   <div class="card card-compact  bg-base-100 shadow-xl px-9 py-4">
     <figure><img src="./biker-zone-resources/images/others/user-1.png "alt="Shoes" /></figure>
     <div class="card-body">
